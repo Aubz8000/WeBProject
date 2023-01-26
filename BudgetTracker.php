@@ -1,7 +1,7 @@
 <?php 
 // Connect to the database
 
-$query = file_get_contents('C:\Users\MTC\Documents\BUSINESS & FINANCE\Website business\Budget Tracker Website\BT.sql');
+$query = file_get_contents('Budget Tracker Website\BT.sql');
 mysqli_query($conn, $query);
 
 $host = "hostname";
