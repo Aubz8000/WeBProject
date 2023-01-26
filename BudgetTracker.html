@@ -2,14 +2,16 @@
 <html>
   <head>
     <title>Budget Tracker</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    	<style>
+    <link rel="stylesheet" type="text/css" href="C:\Users\MTC\Documents\BUSINESS & FINANCE\Website business\Budget Tracker Website\BudgetTracker.css">
+	<?php include 'C:\Users\MTC\Documents\BUSINESS & FINANCE\Website business\Budget Tracker Website\BudgetTracker.php';?>
+	
+	<style>
 /* Navigation bar container */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #567;
   color: #fff;
   padding: 20px;
   position: fixed;
@@ -67,7 +69,9 @@
     <header>
       <h1>Budget Tracker</h1>
     </header>
-<div class="navbar">
+
+	
+	<div class="navbar">
   <a href="#home" class="active">Home</a>
   <a href="#budget">Budget</a>
   <a href="#transactions">Transactions</a>
@@ -119,8 +123,8 @@
           <td>EUR</td>
         </tr>
       </table>
-	    
-	    	  <script>
+	  
+	  <script>
 // Toggle navigation bar links
 var toggleButton = document.querySelector(".toggle-button");
 toggleButton.addEventListener("click", function() {
