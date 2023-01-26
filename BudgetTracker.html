@@ -119,3 +119,17 @@
           <td>EUR</td>
         </tr>
       </table>
+	    
+	    	  <script>
+// Toggle navigation bar links
+var toggleButton = document.querySelector(".toggle-button");
+toggleButton.addEventListener("click", function() {
+  var navbarLinks = document.querySelectorAll(".navbar a");
+  navbarLinks.forEach(function(link) {
+    link.classList.toggle("hidden");
+  });
+});
+</script>
+
+</body>
+</html>
