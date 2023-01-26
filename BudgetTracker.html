@@ -3,6 +3,65 @@
   <head>
     <title>Budget Tracker</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    	<style>
+/* Navigation bar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Navigation bar links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1.2em;
+}
+
+/* Active navigation link */
+.navbar a.active {
+  color: #0066ff;
+}
+
+/* Navigation bar toggle button */
+.navbar .toggle-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Responsive navigation bar */
+@media (max-width: 600px) {
+  /* Navigation bar links */
+  .navbar a {
+    display: none;
+  }
+
+  /* Navigation bar toggle button */
+  .navbar .toggle-button {
+    display: block;
+  }
+
+  /* Navigation bar container */
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+</style>
   </head>
   <body>
     <header>
